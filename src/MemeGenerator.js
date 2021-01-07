@@ -38,7 +38,7 @@ class MemeGenerator extends Component {
   render() {
     return (
       <div>
-        <form className="meme-form">
+        <form className="meme-form" onSubmit={this.handleSubmit}>
           <input
             type="text"
             placeholder="Top text"
